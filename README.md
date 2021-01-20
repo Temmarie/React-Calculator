@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Available Scripts
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-In the project directory, you can run:
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-### `yarn start`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Temmarie/React-Calculator/tree/development">
+    <img src="https://github.com/OA7/React_Calculator" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h3 align="center">Calculator App</h3>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <p align="center">
+    This is a Shooter game from the Javascript section of the Microverse curriculum.
+    <br />
+    <a href="https://github.com/Temmarie/Shooter-game"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Temmarie/Shooter-game/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Temmarie/Shooter-game/issues">Request Feature</a>
+  </p>
+</p>
 
-### `yarn test`
+<!-- TABLE OF CONTENTS -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `yarn build`
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Game Design](#game-design)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Contact](#Authors)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Shooter Games
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+An RPG Shooter Game built with JavaScript and tested with Jest.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# [Live Link](https://laughing-lumiere-bd9878.netlify.app/)
 
-### `yarn eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Phaser](http://phaser.io/)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [WebPack](https://webpack.js.org/)
+- [Jest](https://jestjs.io/docs/en/getting-started)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Game Design
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The Main Scene is built so that a user should kill as many enemy ships as possible before they kill him or invade his zone.
 
-## Learn More
+<img src="./assets/images/sprPlayer.png" alt="Logo" width="30" height="30"> <br>
+This is the main character ship, and he has 3 extra lives to kill as many enemy ships as possible.
+<br>
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./assets/images/sprEnemy0.png" alt="Logo" width="30" height="30"> <br>
+This are the enemy ships trying to destroy you at all cost.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+<br>
 
-### Code Splitting
+<img src="./assets/images/sprLaserPlayer.png" alt="Logo" width="5" height="30"> &nbsp;&nbsp; Player laser used to destroy enemy ships.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
+<br>
 
-### Analyzing the Bundle Size
+<img src="./assets/images/sprLaserEnemy.png" alt="Logo" width="5" height="30"> &nbsp;&nbsp; Enemy laser used to destroy main character's ship.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
+<br>
 
-### Making a Progressive Web App
+<img src="./assets/images/sprShieldTile.png" alt="Logo" width="10" height="10"> &nbsp;&nbsp; Tiles used to build main character's shield.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<hr>
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Advanced Configuration
+To get a local copy up and running follow these simple steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+- Make sure your machine has `node` and `npm` packages installed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Installation
 
-### `yarn build` fails to minify
+1. Clone the repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+git clone https://github.com/Temmarie/Shooter-Game.git
+```
+
+2. Open with your favorite text editor.
+3. run `npm install` to install all dependencies required for the app.
+4. If you have a live server extension installed, open the `index.html` file in the `dist` folder with the live server, if not install a live server extension and do as above.
+5. Play the game and enjoy!!!!
+6. NB: In the GameOver screen, the letters 'A' and 'D' used for the navigation will not work when filling the form.
+
+### Tests
+
+- Run `yarn test` to see all available tests associated with this project.
+
+## Author
+
+👤 **Author**
+
+- Github: [@temmarie](https://github.com/temmarie)
+- Twitter: [@TemmarieW](https://twitter.com/TemmarieW)
+- Linkedin: [Grace Tife Ekunola](https://www.linkedin.com/in/ekunola-grace/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+
+- Forking the project
+- Cloning the project to your local machine
+- `cd` into the project directory
+- Run `git checkout -b your-branch-name`
+- Make your contributions
+- Push your branch up to your forked repository
+
+## Show your support
+
+Give a ⭐️ if you like this project!!
+
+## Acknowledgements
+
+- Special thanks to [Microverse](https://www.microverse.
+- I also want to thank my wonderful friend who helped me quite a lot with this project.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/temmarie/shooter-game.svg?style=flat-square
+[contributors-url]: https://github.com/temmarie/shooter-game/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/temmarie/shooter-game.svg?style=flat-square
+[forks-url]: https://github.com/temmarie/shooter-game/network/members
+[stars-shield]: https://img.shields.io/github/stars/temmarie/shooter-game.svg?style=flat-square
+[stars-url]: https://github.com/temmarie/shooter-game/stargazers
+[issues-shield]: https://img.shields.io/github/issues/temmarie/shooter-game.svg?style=flat-square
+[issues-url]: https://github.com/temmarie/shooter-game/issues
