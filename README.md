@@ -53,7 +53,8 @@
 # About The Project
 
 This is a simple calculator app built with react.
-<img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calculator.png" alt="Logo" width="80" height="80" />
+<br />
+<img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calculator.png" />
 
 # [Live Link](https://laughing-lumiere-bd9878.netlify.app/)
 
