@@ -30,11 +30,10 @@
 
   <h3 align="center">Calculator App</h3>
 
-    <br />
+  <p align="center">
     <a href="https://github.com/Temmarie/Shooter-game/issues">Report Bug</a>
     ·
     <a href="https://github.com/Temmarie/Shooter-game/issues">Request Feature</a>
-
   </p>
 </p>
 
