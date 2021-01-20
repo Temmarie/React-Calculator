@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Temmarie/React-Calculator/tree/development">
-    <img src="https://github.com/OA7/React_Calculator" alt="Logo" width="80" height="80">
+    <img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calc.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Calculator App</h3>
