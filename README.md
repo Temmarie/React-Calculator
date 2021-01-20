@@ -30,15 +30,11 @@
 
   <h3 align="center">Calculator App</h3>
 
-  <p align="center">
-    This is a Shooter game from the Javascript section of the Microverse curriculum.
-    <br />
-    <a href="https://github.com/Temmarie/Shooter-game"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/Temmarie/Shooter-game/issues">Report Bug</a>
     ·
     <a href="https://github.com/Temmarie/Shooter-game/issues">Request Feature</a>
+
   </p>
 </p>
 
