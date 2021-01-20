@@ -115,8 +115,7 @@ Give a ⭐️ if you like this project!!
 
 ## Acknowledgements
 
-- Special thanks to [Microverse](https://www.microverse.
-- I also want to thank my wonderful friend who helped me quite a lot with this project.
+- Special thanks to [Microverse](https://www.microverse).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
