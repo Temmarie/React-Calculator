@@ -53,6 +53,7 @@
 # About The Project
 
 This is a simple calculator app built with react.
+https://github.com/OA7/React_Calculator/raw/milestone_1/public/calculator.png
 
 # [Live Link](https://laughing-lumiere-bd9878.netlify.app/)
 
