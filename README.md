@@ -56,7 +56,7 @@ This is a simple calculator app built with react.
 <br />
 <img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calculator.png" />
 
-# [Live Link](https://laughing-lumiere-bd9878.netlify.app/)
+# [Live Link](https://calculator-e53e1.web.app/)
 
 ## Built With
 
@@ -68,6 +68,7 @@ This is a simple calculator app built with react.
 - [ReactJs](https://reactjs.org/)
 - [prop-types library](https://www.npmjs.com/package/prop-types)
 - [big.js](https://github.com/MikeMcl/big.js/)
+- [firebase](https://firebase.google.com/)
 <hr>
 
 <!-- GETTING STARTED -->
